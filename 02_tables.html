@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables - HTML</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #fff5f5;
+            margin: 0;
+            padding: 40px 20px;
+            color: #333;
+        }
+
+        /* Heading */
+        h1 {
+            text-align: center;
+            color: #e23744;
+            margin-bottom: 30px;
+        }
+
+        /* Table Styling */
+        table {
+            width: 80%;
+            max-width: 900px;
+            margin: 0 auto;
+            border-collapse: collapse;
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Table Header */
+        thead {
+            background-color: #e23744;
+            color: white;
+        }
+
+        th {
+            padding: 18px;
+            text-align: left;
+            font-size: 16px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* Table Cells */
+        td {
+            padding: 16px 18px;
+            border-bottom: 1px solid #f0dada;
+            font-size: 15px;
+        }
+
+        /* Alternating Row Colors */
+        tbody tr:nth-child(even) {
+            background-color: #fff0f0;
+        }
+
+        tbody tr:nth-child(odd) {
+            background-color: #ffffff;
+        }
+
+        /* Hover Effect */
+        tbody tr:hover {
+            background-color: #ffe0e0;
+            transition: background-color 0.3s ease;
+        }
+
+        /* Last Row Border */
+        tbody tr:last-child td {
+            border-bottom: none;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            body {
+                padding: 25px 10px;
+            }
+
+            table {
+                width: 100%;
+            }
+
+            th,
+            td {
+                padding: 12px 10px;
+                font-size: 13px;
+                
+            }
+
+            h1 {
+                font-size: 25px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Tables in HTML</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Role</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jilan</td>
+                <td>AI Engineer</td>
+                <td>$5000</td>
+            </tr>
+            <tr>
+                <td>Jax</td>
+                <td>ML Engineer</td>
+                <td>$3000</td>
+            </tr>
+            <tr>
+                <td>Zox</td>
+                <td>Software Engineer</td>
+                <td>$1000</td>
+            </tr>
+            <tr>
+                <td>Yk</td>
+                <td>Python Spacialist</td>
+                <td>$3000</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

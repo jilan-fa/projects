@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="John's personal developer portfolio and creative work.">
+    <title>Jilan</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Optional Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Template heading -->
+    <header class="page-heading">
+        <a href="#home" class="brand-heading">
+            <span class="code-icon">&lt;/&gt;</span> Developer
+        </a>
+        <h1>JILAN</h1>
+    </header>
+
+    <!-- Main website -->
+    <main class="portfolio" id="home">
+
+        <!-- Navigation -->
+        <nav class="navbar">
+            <a href="#home" class="logo">
+                <span class="code-icon">&lt;/&gt;</span>
+                <span>Developer JILAN</span>
+            </a>
+
+            <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-links">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <div class="nav-links" id="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#work">Blog</a>
+                <a href="#projects">Portfolio</a>
+                <a href="#contact">Pages <i class="fa-solid fa-chevron-down"></i></a>
+                <a href="#contact" class="nav-contact">Contact</a>
+            </div>
+        </nav>
+
+        <!-- Hero -->
+        <section class="hero">
+
+            <div class="hero-intro">
+                <span class="intro-line"></span>
+
+                <p class="eyebrow">HELLO, I'M JILAN</p>
+
+                <h2>I'm Jilan, a<br>Web Developer</h2>
+
+                <p class="hero-description">
+                    I'm Jilan a student, I just learning
+                </p>
+
+                <a href="#about" class="scroll-button" aria-label="Scroll to About Me">
+                    <i class="fa-solid fa-chevron-down"></i>
+                </a>
+            </div>
+
+            <!-- Replace with your own transparent portrait -->
+            <div class="portrait">
+                <img src="jilan.jpeg" alt="Jilan, web developer" fetchpriority="high">
+            </div>
+
+            <!-- Right sidebar -->
+            <aside class="hero-sidebar">
+
+                <div class="sidebar-block">
+                    <h3>ABOUT ME</h3>
+                    <p>
+                        I'm Jilan, I'm an DIPLOMA IN ENGINEERING student my sub is CST.
+                        I just learning
+                    </p>
+                    <a href="#about" class="text-link">LEARN MORE <span>↗</span></a>
+                </div>
+
+                <div class="sidebar-block">
+                    <h3>MY WORK</h3>
+                    <p>
+                        From beautiful interfaces to powerful websites,
+                        I bring creative ideas to life.
+                    </p>
+                    <a href="#projects" class="text-link">BROWSE PORTFOLIO <span>↗</span></a>
+                </div>
+
+                <div class="sidebar-block social-block" id="contact">
+                    <h3>FOLLOW ME</h3>
+                    <div class="social-links">
+                        <a href="https://facebook.com/" aria-label="Facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="https://instagram.com/" aria-label="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://github.com/" aria-label="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </aside>
+        </section>
+
+        <!-- About section -->
+        <section class="about-section" id="about">
+
+            <div class="about-copy">
+                <p class="section-label"><span>✳</span> ABOUT ME</p>
+
+                <h2>I'm new here</h2>
+
+                <p class="about-description">
+                    Exceptional user experience is at the heart of what I do.
+                    I combine thoughtful design with clean, efficient code to
+                    build digital products that look beautiful and work brilliantly.
+                </p>
+
+                <a href="#contact" class="text-link about-link">
+                    More about me <span>↗</span>
+                </a>
+            </div>
+
+            <div class="stats">
+                <div class="stat-item">
+                    <strong>12</strong>
+                    <div>
+                        <h3>new here</h3>
+                        <p>experiencing</p>
+                    </div>
+                </div>
+
+                <div class="stat-item">
+                    <strong>150</strong>
+                    <div>
+                        <h3>Successful</h3>
+                        <p>projects</p>
+                    </div>
+                </div>
+
+                <p class="stats-description">
+                    I focus on creating meaningful digital experiences that combine
+                    creativity, usability, and attention to detail.
+                </p>
+            </div>
+
+        </section>
+
+        <!-- Portfolio section -->
+        <section class="projects-section" id="projects">
+            <div>
+                <p class="section-label"><span>✳</span> SELECTED WORK</p>
+                <h2>Things I've created.</h2>
+            </div>
+
+            <a href="#contact" class="outline-button">
+                Let's work together <span>↗</span>
+            </a>
+
+            <div class="project-grid" id="work">
+                <article class="project-card">
+                    <div class="project-visual visual-one">
+                        <i class="fa-solid fa-layer-group"></i>
+                    </div>
+                    <p>01 / WEB DESIGN</p>
+                    <h3>Creative Studio</h3>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-visual visual-two">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </div>
+                    <p>02 / E-COMMERCE</p>
+                    <h3>Modern Commerce</h3>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-visual visual-three">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <p>03 / DEVELOPMENT</p>
+                    <h3>Digital Experience</h3>
+                </article>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="#home" class="logo">
+                <span class="code-icon">&lt;/&gt;</span> Developer X
+            </a>
+
+            <p>Designed with intention. Built with passion.</p>
+
+            <a href="mailto:hello@example.com" class="footer-email">
+                Get in touch ↗
+            </a>
+        </footer>
+
+    </main>
+
+    <script>
+        const menuToggle = document.querySelector(".menu-toggle");
+        const navLinks = document.querySelector(".nav-links");
+
+        menuToggle.addEventListener("click", () => {
+            const isOpen = navLinks.classList.toggle("active");
+            menuToggle.setAttribute("aria-expanded", isOpen);
+            menuToggle.innerHTML = isOpen
+                ? '<i class="fa-solid fa-xmark"></i>'
+                : '<i class="fa-solid fa-bars"></i>';
+        });
+
+        document.querySelectorAll(".nav-links a").forEach(link => {
+            link.addEventListener("click", () => {
+                navLinks.classList.remove("active");
+                menuToggle.setAttribute("aria-expanded", "false");
+                menuToggle.innerHTML = '<i class="fa-solid fa-bars"></i>';
+            });
+        });
+
+        // Reveal sections as they enter the viewport.
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add("visible");
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.12 });
+
+        document.querySelectorAll(
+            ".about-section, .projects-section, .project-card"
+        ).forEach(element => observer.observe(element));
+    </script>
+
+</body>
+
+</html>
